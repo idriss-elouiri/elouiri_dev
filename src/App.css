@@ -806,7 +806,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #b8b8b8;
   margin-bottom: 1rem;
 }
-
+.logoNav{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
 .text {
   font-size: 1rem;
   color: #dddddd;

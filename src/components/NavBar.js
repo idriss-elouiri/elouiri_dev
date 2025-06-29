@@ -9,6 +9,7 @@ import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
+import AboutMeImg from "../assets/img/aboutMe.webp";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -32,7 +33,8 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <h1>Idriss Dev</h1>
+            <img src={AboutMeImg} alt="logoNav" className="logoNav" />
+
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
