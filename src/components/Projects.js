@@ -12,6 +12,8 @@ import projImg9 from "../assets/img/webCarFlow.png";
 import projImg10 from "../assets/img/roofingPage.png";
 import projImg11 from "../assets/img/realEstateCode.png";
 import projImg13 from "../assets/img/electronicStoreCode.png";
+import projImg14 from "../assets/img/roboto-aqar-ql.png";
+import projImg15 from "../assets/img/hrm.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 const projects = [
@@ -27,7 +29,7 @@ const projects = [
   },
   {
     imgUrl: projImg3,
-    linkWeb: "https://idrisss-five-star-site-b590c7.webflow.io/"
+    linkWeb: "https://idrisss-five-star-site-b590c7.webflow.io/",
   },
   {
     imgUrl: projImg4,
@@ -36,7 +38,6 @@ const projects = [
   },
   {
     imgUrl: projImg2,
-
     linkWeb: "https://car-rental-system-jet.vercel.app",
     linkCode: "https://github.com/idriss-elouiri/Car-Rental-System-",
   },
@@ -48,7 +49,6 @@ const projects = [
     imgUrl: projImg7,
 
     linkCode: "https://github.com/idriss-elouiri/mern-ecommerceWeb",
-
   },
   {
     imgUrl: projImg8,
@@ -64,7 +64,6 @@ const projects = [
     imgUrl: projImg10,
     linkWeb: "https://roofy-website.vercel.app/",
     linkCode: "https://github.com/idriss-elouiri/roofy_website",
-
   },
   {
     imgUrl: projImg11,
@@ -75,6 +74,14 @@ const projects = [
     imgUrl: projImg13,
     linkCode: "https://github.com/idriss-elouiri/ecommerce_store",
     linkWeb: "https://ecommerce-store-taupe-five.vercel.app/",
+  },
+  {
+    imgUrl: projImg14,
+    linkRepo: "https://github.com/idriss-elouiri",
+  },
+  {
+    imgUrl: projImg15,
+    linkRepo: "https://github.com/idriss-elouiri/",
   },
 ];
 
@@ -121,6 +128,15 @@ export const Projects = () => {
                         className="code-button"
                       >
                         View Code
+                      </Button>
+                    )}
+                    {project.linkRepo && (
+                      <Button
+                        href={project.linkRepo}
+                        target="_blank"
+                        className="code-button"
+                      >
+                        Visit Repo
                       </Button>
                     )}
                   </div>
