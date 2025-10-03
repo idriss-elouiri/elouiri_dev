@@ -1,19 +1,19 @@
 import { useState } from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
-import projImg1 from "../assets/img/landingCar.png";
-import projImg2 from "../assets/img/carRentalMn.png";
+import projImg1 from "../assets/img/carLuxe.png";
+import projImg2 from "../assets/img/carRentalGray.png";
 import projImg3 from "../assets/img/realEstateWeb.png";
-import projImg4 from "../assets/img/FarmerSystem.png";
-import projImg5 from "../assets/img/posSystem.png";
-import projImg6 from "../assets/img/dashboard.png";
-import projImg7 from "../assets/img/electronicWebCode.png";
-import projImg8 from "../assets/img/clothesStoreCode.png";
-import projImg9 from "../assets/img/webCarFlow.png";
-import projImg10 from "../assets/img/roofingPage.png";
-import projImg11 from "../assets/img/realEstateCode.png";
-import projImg13 from "../assets/img/electronicStoreCode.png";
-import projImg14 from "../assets/img/roboto-aqar-ql.png";
-import projImg15 from "../assets/img/hrm.png";
+import projImg4 from "../assets/img/framer.png";
+import projImg5 from "../assets/img/posGray.png";
+import projImg6 from "../assets/img/dashEcOMMe.png";
+import projImg7 from "../assets/img/electroEcomm.png";
+import projImg8 from "../assets/img/storeEcomm.png";
+import projImg9 from "../assets/img/carRentalGray.png";
+import projImg10 from "../assets/img/roofingWeb.png";
+import projImg11 from "../assets/img/realEstateGray.png";
+import projImg13 from "../assets/img/electroMain.png";
+import projImg14 from "../assets/img/robotoray.png";
+import projImg15 from "../assets/img/hrGray.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 const projects = [
@@ -23,9 +23,9 @@ const projects = [
     linkCode: "https://github.com/idriss-elouiri/luxe_Car",
   },
   {
-    imgUrl: projImg5,
-    linkWeb: "https://pos-system-restaurent.vercel.app",
-    linkCode: "https://github.com/idriss-elouiri/pos-system-restaurent",
+    imgUrl: projImg2,
+    linkWeb: "https://car-rental-system-jet.vercel.app",
+    linkCode: "https://github.com/idriss-elouiri/Car-Rental-System-",
   },
   {
     imgUrl: projImg3,
@@ -37,9 +37,9 @@ const projects = [
     linkWeb: "https://first-client-ock7.vercel.app/",
   },
   {
-    imgUrl: projImg2,
-    linkWeb: "https://car-rental-system-jet.vercel.app",
-    linkCode: "https://github.com/idriss-elouiri/Car-Rental-System-",
+    imgUrl: projImg5,
+    linkWeb: "https://pos-system-restaurent.vercel.app",
+    linkCode: "https://github.com/idriss-elouiri/pos-system-restaurent",
   },
   {
     imgUrl: projImg6,
@@ -47,7 +47,7 @@ const projects = [
   },
   {
     imgUrl: projImg7,
-
+    linkWeb: "https://omar-electronic.onrender.com/",
     linkCode: "https://github.com/idriss-elouiri/mern-ecommerceWeb",
   },
   {
@@ -58,7 +58,7 @@ const projects = [
   },
   {
     imgUrl: projImg9,
-    linkWeb: "idrisss-car-site-87a306.webflow.io",
+    linkWeb: "https://idrisss-car-site-87a306.webflow.io/",
   },
   {
     imgUrl: projImg10,
@@ -77,11 +77,12 @@ const projects = [
   },
   {
     imgUrl: projImg14,
-    linkRepo: "https://github.com/idriss-elouiri",
+    linkCode: "https://github.com/idriss-elouiri",
   },
   {
     imgUrl: projImg15,
-    linkRepo: "https://github.com/idriss-elouiri/",
+    linkCode: "https://github.com/idriss-elouiri/",
+    linkWeb: "https://hr-eta.vercel.app/",
   },
 ];
 
