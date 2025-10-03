@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import projImg1 from "../assets/img/carLuxe.png";
-import projImg2 from "../assets/img/carRentalGray.png";
+import projImg2 from "../assets/img/carRenltaGig.png";
 import projImg3 from "../assets/img/realEstateWeb.png";
 import projImg4 from "../assets/img/framer.png";
 import projImg5 from "../assets/img/posGray.png";
