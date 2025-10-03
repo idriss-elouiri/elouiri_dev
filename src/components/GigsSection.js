@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import gigImg1 from "../assets/img/مطور تطبيق ويب.png";
-import gigImg2 from "../assets/img/figmatohtml.png";
+import gigImg2 from "../assets/img/htmltofigma.png";
 import gigImg3 from "../assets/img/cloneWebsiteDesing.png";
 import gigImg4 from "../assets/img/mern stack gig.jpg";
 import gigImg5 from "../assets/img/WEB APP.png";
